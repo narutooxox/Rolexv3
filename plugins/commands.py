@@ -1,30 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@narutooxox 
-haashim007
-/
-TrockerBot_1
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-TrockerBot_1/plugins/commands.py /
-@haashim007
-haashim007 Add files via upload
-Latest commit 0869d0e 21 days ago
- History
- 1 contributor
-522 lines (483 sloc)  20.7 KB
-
 import os
 import logging
 import random
@@ -547,17 +520,3 @@ async def save_template(client, message):
     template = message.text.split(" ", 1)[1]
     await save_group_settings(grp_id, 'template', template)
     await sts.edit(f"Successfully changed template for {title} to\n\n{template}")
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
